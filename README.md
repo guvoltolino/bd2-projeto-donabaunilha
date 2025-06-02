@@ -59,15 +59,6 @@ Responde às seguintes perguntas estratégicas:
 
 ---
 
-## 🏗️ Modelagem do Banco de Dados
-
-O modelo segue o padrão estrela (Star Schema), com uma tabela fato central e várias tabelas dimensão.
-
-> 🚧 Adicione aqui a imagem do modelo se desejar:
-> 
-> `![Modelo de Dados](./imagens/modelo_dados.png)`
-
----
 
 ## 💡 Como Executar
 
@@ -90,21 +81,3 @@ O modelo segue o padrão estrela (Star Schema), com uma tabela fato central e v�
 
 1. Conecte o Power BI ao seu banco SQL local.
 2. Crie dashboards e gráficos para visualização dos dados.
-
----
-
-## 📁 Organização dos Arquivos
-
-```plaintext
-📦 bd2-projeto-donabaunilha
-├── 📁 notebooks
-│   ├── 00_criacao_e_insercao.sql
-│   └── 01_perguntas.sql
-├── 📁 sql
-│   ├── criacao_tabelas.sql
-│   ├── insercao_dados.sql
-│   └── consultas_negocio.sql
-├── 📁 imagens
-│   └── modelo_dados.png
-├── README.md
-└── Documentação - Projeto Dona Baunilha.pdf
